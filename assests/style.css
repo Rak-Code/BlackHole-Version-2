@@ -1,0 +1,53 @@
+/* .gradient-background{
+    background: linear-gradient(300deg, #14FFEC,#0D7377 #212121,#323232);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+} */
+
+.gradient-background {
+    background: linear-gradient(300deg, #03C988, #323232, #212121);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 50px;
+}
+
+.container-flex{
+  width: 100%;
+  display: flex;
+  justify-content:center;
+}
