@@ -51,3 +51,31 @@
   display: flex;
   justify-content:center;
 }
+
+
+
+/* Media queries */
+@media (max-width: 768px) {
+  #title .container {
+      padding: 0 20px;
+  }
+  
+  #title h1 {
+      font-size: 24px;
+  }
+
+  #feature .container {
+      padding: 0 20px;
+  }
+
+  #title > div > div > div.col-10.col-sm-8.col-lg-6 > img{
+    margin-left: 13%;
+   
+    
+  }
+
+  footer .col-md-4 {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+}
